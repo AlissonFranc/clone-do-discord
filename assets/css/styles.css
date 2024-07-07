@@ -1,0 +1,1428 @@
+* {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-family: 'ABC Ginto Nord Condensed Unlicensed Trial', sans-serif;
+    font-family: 'ABC Ginto Normal Unlicensed Trial', sans-serif;
+    font-family: 'gg sans', sans-serif;
+    font-family: 'gg sans Normal', sans-serif;
+    font-family: 'gg sans Medium', sans-serif;
+    font-family: 'gg sans SemiBold', sans-serif;
+    background-image: url(../images/_background-art.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    
+    height: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    align-items: center;
+    height: 100px;
+}
+
+.logo a img {
+    width: 124px;
+    height: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'gg sans Normal', sans-serif;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 20px;
+}
+
+.botao-entrar-header a {
+    padding: 17px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    font-weight: bold;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: 'gg sans', sans-serif;
+}
+
+.botao-entrar-header a {
+    text-decoration: none;
+    color: #23272a;
+    font-weight: bold;
+}
+
+.botao-entrar-header a:hover {
+    color: #5865f2;
+    transition: 0.3s;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    width: 1180px;
+}
+
+.principal-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    margin-right: -35px;
+}
+
+.disc-title {
+    width: 399px;
+    line-height: 60px;
+}
+
+.disc-text {
+    width: 399px;
+}
+
+.disc-title h1 {
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-size: 52px;
+    margin-top: 65px;
+    margin-bottom: 0;
+}
+
+.disc-text p {
+    font-family: 'gg sans Normal', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.characters {
+    width: 825px;
+}
+
+.robot {
+    width: 55px;
+    margin-top: -100px;
+    animation-name: robot;
+    padding-left: 100px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: all 1s linear;
+}
+
+@keyframes robot {
+    0% { 
+        padding-bottom: 29px;
+    }
+
+    50% {
+        padding-bottom: 39px;
+    }
+
+    100% {
+        padding-bottom: 29px;
+    }
+}
+
+.buttons {
+    margin-bottom: 30px;
+}
+
+.buttons-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bt {
+    display: flex;
+    align-items: center;
+    margin: 24px 24px 0px 0px;
+}
+
+.bt a {
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #fff;
+    color: #23272a;
+    text-decoration: none;
+    font-family: 'gg sans', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.bt a:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .2);
+    color: #5865f2;
+    transition:all 0.3s linear;
+}
+
+.bt2 a:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .2);
+    transition:all 0.3s linear;
+}
+
+.bt2 {
+    display: flex;
+    align-items: center;
+    margin: 24px 24px 0px 0px;
+}
+
+.bt2 a {
+    transition: 0.3s;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'gg sans', sans-serif;
+    text-decoration: none;
+    padding: 16px 32px;
+    background-color: #161CBB;
+}
+
+.content-section {
+    padding: 200px 0px 115px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .07));
+    background: rgb(97, 97, 255);
+    border-radius: 35px;
+    padding: 16px 16px 16px 16px;
+    box-shadow: 0 2px 52px rgba(69, 42, 124, .1), inset 0 0 0 3px rgba(255, 255, 255, .2)
+}
+
+.content-text {
+    width: 400px;
+    padding-right: 20px;
+    margin-left: 50px;
+}
+
+.content-text-bold p {
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content-text-normal {
+    width: 350px;
+    margin-top: -15px;
+}
+
+.content-text-normal p {
+    font-family: 'gg sans Normal', sans-serif;
+    font-size: 25px;
+}
+
+.content-img img {
+    width: 770px;
+    border-radius: 35px;
+}
+
+.char {
+    width: 50px;
+    padding-left: 660px ;
+    margin-bottom: -10px;
+}
+
+.char img {
+    width: 135px;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 16px 16px 16px;
+    box-shadow: 0 2px 52px rgba(69, 42, 124, .1), inset 0 0 0 3px rgba(255, 255, 255, .2);
+    background: rgb(55, 55, 253);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .4), rgba(255, 255, 255, .07));
+}
+
+.content-stg {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .07));
+    background: rgb(55, 55, 253);
+    border-radius: 35px;
+    padding: 16px 16px 16px 16px;
+    box-shadow: 0 2px 52px rgba(69, 42, 124, .1), inset 0 0 0 3px rgba(255, 255, 255, .2)
+}
+
+.box {
+    width: 135px;
+    height: 200px;
+    margin-left: -130px;
+}
+
+.box img {
+    width: 350px;
+    margin-left: -135px;
+    margin-top: -190px;
+}
+
+.line {
+    background: rgb(78,134,255);
+    background: linear-gradient(0deg, rgba(78,134,255,1) 0%, rgba(0,82,255,1) 100%);
+    margin-top: 60px;
+    height: 150px;
+    width: 100%;
+    background-color: #23272a;
+}
+
+.char-woman {
+    width: 150px;
+    height: 120px;
+    margin-left: -150px;
+}
+
+.char-woman img {
+    margin-left: -310px;
+    margin-top: -200px;
+    margin-bottom: 10px;
+    width: 210px;
+}
+
+.char-man {
+    width: 150px;
+    height: 120px;
+    margin-top: -100px;
+    margin-left: 815px;
+}
+
+.char-man img {
+    width: 230px;
+    margin-top: -35px;
+}
+
+.content-texto-baixo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.texto-baixo {
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 1000px;
+}
+
+.buttons-principal-baixo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bt-baixo {
+    display: flex;
+    align-items: center;
+    margin: 24px 24px 0px 0px;
+}
+
+.bt-baixo a {
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #5865f2;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'gg sans', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.bt-baixo a:hover {
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, .2);
+    transition:all 0.3s linear;
+}
+
+.img-footer {
+    width: 100%;
+}
+
+.img-footer img {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #161CBB;
+    border-top: 5px solid #747eea;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .3), rgba(255, 255, 255, .05)), linear-gradient(261deg, #2e1a8e, #0e0e5c);
+}
+
+.footer-container {
+    display: flex;
+    width: 1180px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.footer-social a img {
+    width: 25px;
+}
+
+.footer-social a {
+    padding: 10px 5px 10px 5px;
+}
+
+.footer-content {
+    margin-top: 20px;
+}
+
+.fm-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fm-title p {
+    font-family: 'gg sans', sans-serif;
+}
+
+.fm-list nav ul li a {
+    font-family: 'gg sans Normal', sans-serif;
+    font-weight: normal;
+}
+
+.fm-list nav ul li {
+    padding: 8px 0px 8px 0px;
+}
+
+.fm-list nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    width: 370px;
+    margin: 30px 0px 30px 0px;
+}
+
+.footer-container-2 {
+    display: flex;
+    width: 1180px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+}
+
+.footer-logo {
+    margin: 30px 0px 50px 0px;
+}
+
+.footer-logo img {
+    width: 124px;
+    height: 30px;
+}
+
+.footer-buttom a {
+    margin-top: 30px;
+    padding: 17px;
+    text-decoration: none;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    font-weight: bold;
+    background-color: #5865f2;
+    font-size: 15px;
+    font-family: 'gg sans', sans-serif;
+    transition:all 0.2s linear;
+}
+
+.footer-buttom a:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, .2);
+    background-color: #747eea;
+    transition:all 0.2s linear;
+}
+
+@media (max-width: 1024px) and (min-width: 990px) {
+    .container {
+        width: 900px;
+    }
+
+    .disc-img {
+        margin-top: 20px;
+    }
+
+    .principal {
+        width: 850px;
+    }
+
+    .principal-text {
+        margin-left: 0;
+    }
+
+    .disc-title {
+        width: 375px;
+        line-height: 50px;
+    }
+
+    .disc-title h1 {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 40px;
+        margin-top: 65px;
+        margin-bottom: 0;
+    }
+
+    .disc-text p {
+        font-family: 'gg sans Normal', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .disc-text {
+        width: 300px;
+    }
+
+    .characters {
+        width: 600px;
+        margin-left: -30px;
+    }
+
+    .robot {
+        width: 35px;
+        padding-left: 45px;
+        margin-top: -50px;
+    }
+
+    .buttons-principal {
+        width: 950px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .content {
+        width: 900px;
+    }
+
+    .content-text {
+        width: 300px;
+        padding-right: 20px;
+        margin-left: 30px;
+    }
+
+    .content-text-bold {
+        width: 300px;
+    }
+
+    .content-text-bold p {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .content-text-normal {
+        width: 300px;
+        margin-top: -15px;
+    }
+
+    .content-text-normal p {
+        font-family: 'gg sans Normal', sans-serif;
+        font-size: 17px;
+    }
+
+    .content-img {
+        width: 500px;
+    }
+
+    .content-img img {
+        width: 500px;
+        border-radius: 35px;
+    }
+
+    .content-section {
+        padding: 100px 0px 115px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .char {
+        width: 50px;
+        padding-left: 250px;
+        margin-bottom: -10px;
+    }
+
+    .botao-entrar-header a {
+        text-decoration: none;
+        color: #23272a;
+        font-weight: bold;
+        margin: 20px;
+    }
+
+    .char-man {
+        width: 150px;
+        height: 65px;
+        margin-top: -100px;
+        margin-left: 550px;
+    }
+
+    .char-man img {
+        width: 150px;
+        margin-top: -35px;
+    }
+
+    .char-woman {
+        width: 200px;
+        height: 120px;
+        margin-left: -150px;
+        margin-top: -5px;
+    }
+
+    .char-woman img {
+        margin-left: -170px;
+        margin-top: -210px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    .texto-baixo {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        width: 800px;
+    }
+
+    .footer-container {
+        width: 900px;
+        flex-wrap: wrap;
+    }
+
+    .footer-content {
+        width: 230px;
+    }
+
+    .footer-container-2 {
+        width: 900px;
+    }
+
+    .box img {
+        width: 300px;
+        margin-left: -60px;
+        margin-top: -165px;
+    }
+
+    .box {
+        width: 170px;
+        height: 200px;
+        margin-left: -134px;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 750px) {
+    
+    .logo a img {
+        margin: 20px;
+    }
+    
+    .botao-entrar-header {
+        display: none;
+    }
+    
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+    }
+
+    .mm-line {
+        height: 5px;
+        background-color: #fff;
+    }
+
+    .menu nav ul{
+        display: none ;
+    }
+
+    .container {
+        width: 900px;
+    }
+    
+    .robot {
+        display: none;
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .line {
+        background: rgb(78, 134, 255);
+        background: linear-gradient(0deg, rgba(78, 134, 255, 1) 0%, rgba(0, 82, 255, 1) 100%);
+        margin-top: 0px;
+        height: 75px;
+        width: 100%;
+        background-color: #23272a;
+    }
+    
+    .disc-img {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal {
+        width: 850px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .principal-text {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .disc-title {
+        width: 625px;
+        line-height: 50px;
+    }
+
+    .disc-title h1 {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 31px;
+        margin-top: 65px;
+        margin-bottom: 0;
+    }
+
+    .disc-text p {
+        font-family: 'gg sans Normal', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .disc-text {
+        width: 550px;
+    }
+
+    .characters {
+        width: 490px;
+        margin-left: 30px;
+    }
+
+    .robot {
+        width: 35px;
+        padding-left: 70px;
+        margin-top: -50px;
+    }
+
+    .buttons-principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    .content-text {
+        width: 300px;
+        padding-right: 20px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content-text-bold {
+        width: 300px;
+    }
+
+    .content-text-bold p {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .content-text-normal {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .content-text-normal p {
+        font-family: 'gg sans Normal', sans-serif;
+        font-size: 14px;
+    }
+
+    .content-img {
+        width: 500px;
+    }
+
+    .content-stg {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .07));
+        background: rgb(55, 55, 253);
+        border-radius: 35px;
+        padding: 16px 16px 16px 16px;
+        box-shadow: 0 2px 52px rgba(69, 42, 124, .1), inset 0 0 0 3px rgba(255, 255, 255, .2);
+        width: 90%;
+    }
+
+    .content-img img {
+        width: 100%;
+        border-radius: 35px;
+    }
+
+    .content-section {
+        padding: 100px 0px 115px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .char {
+        width: 50px;
+        padding-left: 250px;
+        margin-bottom: -10px;
+    }
+
+    .botao-entrar-header a {
+        text-decoration: none;
+        color: #23272a;
+        font-weight: bold;
+        margin: 20px;
+    }
+
+    .char-man {
+        width: 150px;
+        height: 65px;
+        margin-top: -100px;
+        margin-left: 550px;
+    }
+
+    .char-man img {
+        width: 150px;
+        margin-top: -35px;
+    }
+
+    .char-woman {
+        width: 200px;
+        height: 120px;
+        margin-left: -150px;
+        margin-top: -5px;
+    }
+
+    .char-woman img {
+        margin-left: -160px;
+        margin-top: -210px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    .texto-baixo {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        width: 800px;
+    }
+
+    .footer-container {
+        width: 515px;
+    }
+
+    .footer-content {
+        width: 230px;
+    }
+
+    .footer-container-2 {
+        width: 700px;
+    }
+
+    .box img {
+        width: 140px;
+        margin-left: 36px;
+        margin-top: -86px;
+    }
+
+    .box {
+        height: 200px;
+        margin-left: -137px;
+    }
+}
+
+@media (max-width: 750px) and (min-width: 650px) {
+    
+    .logo a img {
+        margin: 20px;
+    }
+    
+    .botao-entrar-header {
+        display: none;
+    }
+    
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+    }
+
+    .mm-line {
+        height: 5px;
+        background-color: #fff;
+    }
+
+    .menu nav ul{
+        display: none ;
+    }
+
+    .container {
+        width: 900px;
+    }
+    
+    .robot {
+        display: none;
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .line {
+        background: rgb(78, 134, 255);
+        background: linear-gradient(0deg, rgba(78, 134, 255, 1) 0%, rgba(0, 82, 255, 1) 100%);
+        margin-top: 0px;
+        height: 75px;
+        width: 100%;
+        background-color: #23272a;
+    }
+    
+    .disc-img {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal {
+        width: 850px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .principal-text {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .disc-title {
+        width: 80%;
+        line-height: 45px;
+    }
+
+    .disc-title h1 {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 31px;
+        margin-top: 65px;
+        margin-bottom: 0;
+    }
+
+    .disc-text p {
+        font-family: 'gg sans Normal', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .disc-text {
+        width: 80%;
+    }
+
+    .characters {
+        width: 490px;
+        margin-left: 30px;
+    }
+
+    .robot {
+        width: 35px;
+        padding-left: 70px;
+        margin-top: -50px;
+    }
+
+    .buttons-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+    }
+
+    .content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text {
+        width: 90%;
+        padding-right: 20px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content-text-bold {
+        width: 100%;
+    }
+
+    .content-text-bold p {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .content-text-normal {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .content-text-normal p {
+        font-family: 'gg sans Normal', sans-serif;
+        font-size: 16px;
+    }
+
+    .content-img {
+        width: 100%;
+    }
+
+    .content-stg {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .07));
+        background: rgb(55, 55, 253);
+        border-radius: 35px;
+        padding: 16px 16px 16px 16px;
+        box-shadow: 0 2px 52px rgba(69, 42, 124, .1), inset 0 0 0 3px rgba(255, 255, 255, .2);
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-img img {
+        width: 100%;
+        border-radius: 35px;
+    }
+
+    .content-section {
+        padding: 100px 0px 115px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .char {
+        width: 50px;
+        padding-left: 80px;
+        margin-bottom: -10px;
+    }
+
+    .botao-entrar-header a {
+        text-decoration: none;
+        color: #23272a;
+        font-weight: bold;
+        margin: 20px;
+    }
+
+    .char-man {
+        width: 150px;
+        height: 65px;
+        margin-top: -100px;
+        margin-left: 250px;
+    }
+
+    .char-man img {
+        width: 150px;
+        margin-top: -35px;
+    }
+
+    .char-woman {
+        display: none;
+        width: 200px;
+        height: 120px;
+        margin-left: -150px;
+        margin-top: -5px;
+    }
+
+    .char-woman img {
+        margin-left: -160px;
+        margin-top: -210px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    .texto-baixo {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        width: 800px;
+    }
+
+    .footer-container {
+        width: 515px;
+    }
+
+    .footer-content {
+        width: 230px;
+    }
+
+    .footer-container-2 {
+        width: 600px;
+    }
+
+    .box img {
+        width: 200px;
+        margin-left: 469px;
+        margin-top: -115px;
+    }
+
+    .box {
+        display: none;
+        height: 0;
+        margin-left: -137px;
+    }
+}
+
+@media (max-width: 650px) {
+    
+    .logo a img {
+        margin: 20px;
+    }
+
+    .botao-entrar-header {
+        display: none;
+    }
+    
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+    }
+
+    .mm-line {
+        height: 5px;
+        background-color: #fff;
+    }
+
+    .menu nav ul{
+        display: none ;
+    }
+
+    .container {
+        width: 900px;
+    }
+    
+    .robot {
+        display: none;
+    }
+
+    .bt {
+        display: flex;
+        align-items: center;
+        margin: 30px 50px 0px 0px;
+    }
+
+    .bt a {
+        font-size: 16px;
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .bt2 a {
+        display: none;
+    }
+    
+    .disc-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal {
+        width: 850px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .principal-text {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .disc-title {
+        width: 80%;
+        line-height: 45px;
+    }
+
+    .disc-title h1 {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 31px;
+        margin-top: 65px;
+        margin-bottom: 0;
+    }
+
+    .disc-text p {
+        font-family: 'gg sans Normal', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .disc-text {
+        width: 80%;
+    }
+
+    .characters {
+        width: 310px;
+    }
+
+    .robot {
+        width: 35px;
+        padding-left: 70px;
+        margin-top: -50px;
+    }
+
+    .buttons-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+    }
+
+    .content {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text {
+        width: 90%;
+        padding-right: 20px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content-text-bold {
+        width: 100%;
+    }
+
+    .content-text-bold p {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .content-text-normal {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .content-text-normal p {
+        font-family: 'gg sans Normal', sans-serif;
+        font-size: 16px;
+    }
+
+    .content-img {
+        width: 100%;
+    }
+
+    .content-stg {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .07));
+        background: rgb(55, 55, 253);
+        border-radius: 35px;
+        padding: 16px 16px 16px 16px;
+        box-shadow: 0 2px 52px rgba(69, 42, 124, .1), inset 0 0 0 3px rgba(255, 255, 255, .2);
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-img img {
+        width: 100%;
+        border-radius: 35px;
+    }
+
+    .content-section {
+        padding: 60px 0px 115px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .char img {
+        width: 90px;
+    }
+
+    .char {
+        width: 50px;
+        padding-left: 80px;
+        margin-bottom: -10px;
+    }
+
+    .char-man {
+        width: 150px;
+        height: 65px;
+        margin-top: -100px;
+        margin-left: 170px;
+    }
+
+    .char-man img {
+        width: 120px;
+        margin-top: -20px;
+    }
+
+    .char-woman {
+        display: none;
+        width: 200px;
+        height: 120px;
+        margin-left: -150px;
+        margin-top: -5px;
+    }
+
+    .char-woman img {
+        margin-left: -160px;
+        margin-top: -210px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    .texto-baixo {
+        font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        width: 800px;
+    }
+
+    .bt-baixo {
+        display: flex;
+        align-items: center;
+        margin: 24px 0px 24px 0px;
+    }
+
+    .footer-container {
+        width: 315px;
+    }
+
+    .footer-content {
+        width: 230px;
+    }
+
+    .footer-container-2 {
+        width: 85%;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        margin-bottom: 50px;
+        margin-left: 5px;
+    }
+
+    .box img {
+        width: 200px;
+        margin-left: 469px;
+        margin-top: -115px;
+    }
+
+    .box {
+        display: none;
+        height: 0;
+        margin-left: -137px;
+    }
+}
